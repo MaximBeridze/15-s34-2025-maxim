@@ -1,5 +1,1 @@
-# 15-s34-2025-maxim
-# 15-s34-2025-maxim
-# 15-s34-2025-maxim
-# 15-s34-2025-maxim
-# 15-s34-2025-maxim
+A repo for some HTML and CSS stuff for Advanced Web Dev class
