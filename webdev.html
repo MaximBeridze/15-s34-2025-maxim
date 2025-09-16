@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="stylesheet" href="stylish.css">  
+  <meta charset="UTF-8">
+  <title>Simple Landing Page</title>
+
 </head>
 <body>
-    
+  <header>
+    <h2>My Mockup Page</h2>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to My Page</h1>
+    <p>This is a simple landing page mockup. I have added a CTA button, however it currently doesn't do much</p>
+    <a href="#" class="btn">Color Change</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+  <script>
+  document.querySelector(".btn").addEventListener("click", function (e) {
+    e.preventDefault(); // stops the link from navigating
+    document.body.style.background = '#'+(Math.random()*0xFFFFFF<<0).toString(16);; // new background color
+  });
+</script>
+
 </body>
 </html>
